@@ -1,5 +1,4 @@
 # Step 1 : Load Modules
-import pytesseract
 import streamlit as st
 from tavily import TavilyClient
 from langchain_google_genai import ChatGoogleGenerativeAI
