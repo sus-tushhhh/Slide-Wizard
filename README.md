@@ -1,6 +1,6 @@
 <div align='center'>
 
-## 🪄 Slide Wizard
+# 🪄 Slide Wizard
 
 > **Generate AI-powered presentations, create news articles from real-time web data, and produce AI-generated images—all from one Streamlit application.**
 
