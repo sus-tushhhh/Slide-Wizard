@@ -72,7 +72,8 @@ def run_agent(query, leader_agent = leader_agent):
     Generate image using
     with number of slide asked, and use time sleep to hit image request on server 
     and using file handling embed this in output html, 
-    use java script function give Final response output in HTML, no markdowns and
+    use css for next and previous buttons and don't use js and give 
+    Final response output in HTML, no markdowns and
     strictly don't write html after ```
     user query given below:"""
 
