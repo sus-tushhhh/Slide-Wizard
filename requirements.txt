@@ -1,0 +1,10 @@
+langchain
+langchain-groq
+langchain-google-genai
+tavily-python
+pytesseract
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
