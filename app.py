@@ -3,15 +3,8 @@ import pytesseract
 import streamlit as st
 from tavily import TavilyClient
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain_groq import ChatGroq
 from langchain.agents import create_agent
-from langchain.tools import tool
 
-import pandas as pd
-import numpy as np
-import time
-from io import BytesIO
-from PIL import Image
 import requests
 
 # Backend ----------------------------------------------------------------------------------------
@@ -138,7 +131,7 @@ with st.container(border=True, horizontal_alignment='center'):
         if ppt_input or all_prompt:
             with st.spinner("Generating PPT"):
                 try: 
-                    ppt_code = run_agent((all_prompt or ppt_input) + f"Number of slides = {(max(n_slides, side_n_slides))}")
+                    ppt_code = run_agent((ppt_input or all_prompt) + f"Number of slides = {(max(n_slides, side_n_slides))}")
                     st.html(ppt_code, unsafe_allow_javascript=True, width='content')
 
                     # with open('ppt.html', 'w') as f:
