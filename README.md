@@ -24,6 +24,13 @@ SlideWizard AI is an intelligent content generation platform built using **Pytho
 
 ---
 
+## 🌐 Live Preview
+
+🚀 Experience the app live:  
+👉 https://slide-wizard-sus-tushhhh.streamlit.app/
+
+---
+
 ### 🌟 Additional Features
 
 #### 📰 AI News Article Generator
